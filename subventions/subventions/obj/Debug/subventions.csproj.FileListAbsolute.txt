@@ -1,0 +1,11 @@
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csprojAssemblyReference.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
