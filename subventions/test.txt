@@ -1,8 +1,5 @@
 ffffffffffffffffffffffff
-<<<<<<< HEAD
 asdasdasdasdasjd
 asdaskdhasd
 asdkajshdkjasdasd
-=======
 dddddddddddddddddddddddd
->>>>>>> 12c050fd992e759f7476cc352f7939781f7e6371
