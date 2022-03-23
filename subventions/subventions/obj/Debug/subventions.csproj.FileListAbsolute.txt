@@ -21,3 +21,4 @@ C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
