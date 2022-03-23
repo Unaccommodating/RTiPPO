@@ -35,7 +35,7 @@ namespace subventions
         private void Enter_Click(object sender, EventArgs e)
         {
             this.Hide();
-            newForm form = new newForm();
+            Form1 form = new Form1();
             form.Show();
         }
 
