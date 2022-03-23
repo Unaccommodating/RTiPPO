@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ffffffffffffffffffffffff
 asdasdasdasdasjd
 asdaskdhasd
 asdkajshdkjasdasd
 dddddddddddddddddddddddd
+=======
+ffffffffffffffffffffffff
+>>>>>>> parent of 7e49163 (Create text.txt)
