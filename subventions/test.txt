@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ffffffffffffffffffffffff
 asdasdasdasdasjd
 asdaskdhasd
@@ -7,3 +8,6 @@ dddddddddddddddddddddddd
 =======
 ffffffffffffffffffffffff
 >>>>>>> parent of 7e49163 (Create text.txt)
+=======
+ffffffffffffffffffffffff
+>>>>>>> parent of 12c050f (text Azat)
