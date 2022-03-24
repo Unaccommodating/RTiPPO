@@ -53,6 +53,8 @@ namespace subventions
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.ToAddButton = new System.Windows.Forms.Button();
+            this.ToChangeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -139,16 +141,8 @@ namespace subventions
             // 
             // textBox1
             // 
-
-            this.textBox1.Location = new System.Drawing.Point(186, 28);
-
-
-            this.textBox1.Location = new System.Drawing.Point(186, 28);
-
-            this.textBox1.Location = new System.Drawing.Point(250, 35);
+            this.textBox1.Location = new System.Drawing.Point(311, 35);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-
-
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(111, 22);
             this.textBox1.TabIndex = 2;
@@ -158,31 +152,15 @@ namespace subventions
             this.textBox2.Location = new System.Drawing.Point(4, 35);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
-
-
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
-
             this.textBox2.Size = new System.Drawing.Size(237, 22);
-
-
             this.textBox2.TabIndex = 3;
             // 
             // textBox3
             // 
-
-            this.textBox3.Location = new System.Drawing.Point(275, 28);
-
-
-            this.textBox3.Location = new System.Drawing.Point(275, 28);
-
-            this.textBox3.Location = new System.Drawing.Point(369, 35);
+            this.textBox3.Location = new System.Drawing.Point(460, 35);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-
-
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 22);
+            this.textBox3.Size = new System.Drawing.Size(93, 22);
             this.textBox3.TabIndex = 4;
             // 
             // monthCalendar1
@@ -206,35 +184,19 @@ namespace subventions
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-
-            this.comboBox1.Location = new System.Drawing.Point(376, 28);
-
-
-            this.comboBox1.Location = new System.Drawing.Point(376, 28);
-
-            this.comboBox1.Location = new System.Drawing.Point(504, 35);
+            this.comboBox1.Location = new System.Drawing.Point(561, 35);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
-
-
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(69, 24);
             this.comboBox1.TabIndex = 7;
             // 
             // textBox4
             // 
-
-            this.textBox4.Location = new System.Drawing.Point(488, 28);
-
-
-            this.textBox4.Location = new System.Drawing.Point(488, 28);
-
-            this.textBox4.Location = new System.Drawing.Point(653, 35);
+            this.textBox4.Location = new System.Drawing.Point(673, 35);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-
-
             this.textBox4.MaxLength = 4;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(88, 22);
+            this.textBox4.Size = new System.Drawing.Size(69, 22);
             this.textBox4.TabIndex = 8;
             // 
             // tableLayoutPanel1
@@ -242,23 +204,14 @@ namespace subventions
             this.tableLayoutPanel1.ColumnCount = 6;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.34007F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.65993F));
-
-
-
-
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 101F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-
-
-
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
-
-
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.textBox2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.comboBox1, 3, 1);
@@ -297,16 +250,8 @@ namespace subventions
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-
-            this.label2.Location = new System.Drawing.Point(186, 0);
-
-
-            this.label2.Location = new System.Drawing.Point(186, 0);
-
-            this.label2.Location = new System.Drawing.Point(250, 0);
+            this.label2.Location = new System.Drawing.Point(311, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-
-
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 20);
             this.label2.TabIndex = 10;
@@ -316,16 +261,8 @@ namespace subventions
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-
-            this.label3.Location = new System.Drawing.Point(275, 0);
-
-
-            this.label3.Location = new System.Drawing.Point(275, 0);
-
-            this.label3.Location = new System.Drawing.Point(369, 0);
+            this.label3.Location = new System.Drawing.Point(460, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-
-
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 20);
             this.label3.TabIndex = 11;
@@ -335,16 +272,8 @@ namespace subventions
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-
-            this.label4.Location = new System.Drawing.Point(376, 0);
-
-
-            this.label4.Location = new System.Drawing.Point(376, 0);
-
-            this.label4.Location = new System.Drawing.Point(504, 0);
+            this.label4.Location = new System.Drawing.Point(561, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-
-
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 20);
             this.label4.TabIndex = 12;
@@ -353,25 +282,20 @@ namespace subventions
             // label5
             // 
             this.label5.AutoSize = true;
-
-            this.label5.Location = new System.Drawing.Point(460, 25);
-            this.label5.Location = new System.Drawing.Point(460, 25);
-            this.label5.Location = new System.Drawing.Point(616, 31);
+            this.label5.Location = new System.Drawing.Point(645, 31);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(26, 17);
+            this.label5.Size = new System.Drawing.Size(19, 31);
             this.label5.TabIndex = 13;
             this.label5.Text = "От";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(460, 50);
-            this.label6.Location = new System.Drawing.Point(460, 50);
-            this.label6.Location = new System.Drawing.Point(616, 62);
+            this.label6.Location = new System.Drawing.Point(645, 62);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(27, 17);
+            this.label6.Size = new System.Drawing.Size(19, 31);
             this.label6.TabIndex = 14;
             this.label6.Text = "До";
             // 
@@ -379,9 +303,7 @@ namespace subventions
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(488, 0);
-            this.label7.Location = new System.Drawing.Point(488, 0);
-            this.label7.Location = new System.Drawing.Point(653, 0);
+            this.label7.Location = new System.Drawing.Point(673, 0);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 20);
@@ -390,20 +312,40 @@ namespace subventions
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(488, 53);
-            this.textBox5.Location = new System.Drawing.Point(488, 53);
-            this.textBox5.Location = new System.Drawing.Point(653, 66);
+            this.textBox5.Location = new System.Drawing.Point(673, 66);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.MaxLength = 4;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(88, 22);
+            this.textBox5.Size = new System.Drawing.Size(69, 22);
             this.textBox5.TabIndex = 16;
+            // 
+            // ToAddButton
+            // 
+            this.ToAddButton.Location = new System.Drawing.Point(1033, 348);
+            this.ToAddButton.Name = "ToAddButton";
+            this.ToAddButton.Size = new System.Drawing.Size(120, 48);
+            this.ToAddButton.TabIndex = 10;
+            this.ToAddButton.Text = "Добавить";
+            this.ToAddButton.UseVisualStyleBackColor = true;
+            this.ToAddButton.Click += new System.EventHandler(this.ToAddButton_Click);
+            // 
+            // ToChangeButton
+            // 
+            this.ToChangeButton.Location = new System.Drawing.Point(1033, 412);
+            this.ToChangeButton.Name = "ToChangeButton";
+            this.ToChangeButton.Size = new System.Drawing.Size(120, 46);
+            this.ToChangeButton.TabIndex = 11;
+            this.ToChangeButton.Text = "Изменить";
+            this.ToChangeButton.UseVisualStyleBackColor = true;
+            this.ToChangeButton.Click += new System.EventHandler(this.ToChangeButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1235, 554);
+            this.Controls.Add(this.ToChangeButton);
+            this.Controls.Add(this.ToAddButton);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.monthCalendar1);
@@ -445,6 +387,8 @@ namespace subventions
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button ToAddButton;
+        private System.Windows.Forms.Button ToChangeButton;
     }
 }
 
