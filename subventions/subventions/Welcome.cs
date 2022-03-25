@@ -41,6 +41,13 @@ namespace subventions
 
         private void registration_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Registration form = new Registration();
+            form.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

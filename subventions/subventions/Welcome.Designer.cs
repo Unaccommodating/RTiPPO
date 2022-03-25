@@ -32,6 +32,8 @@
             this.registration = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.TextBox();
             this.password = new System.Windows.Forms.TextBox();
+            this.LoginText = new System.Windows.Forms.Label();
+            this.Psw = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // enter
@@ -76,11 +78,34 @@
             this.password.TabIndex = 0;
             this.password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
+            // LoginText
+            // 
+            this.LoginText.AutoSize = true;
+            this.LoginText.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginText.Location = new System.Drawing.Point(218, 81);
+            this.LoginText.Name = "LoginText";
+            this.LoginText.Size = new System.Drawing.Size(62, 23);
+            this.LoginText.TabIndex = 3;
+            this.LoginText.Text = "Логин";
+            this.LoginText.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Psw
+            // 
+            this.Psw.AutoSize = true;
+            this.Psw.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Psw.Location = new System.Drawing.Point(218, 166);
+            this.Psw.Name = "Psw";
+            this.Psw.Size = new System.Drawing.Size(73, 23);
+            this.Psw.TabIndex = 4;
+            this.Psw.Text = "Пароль";
+            // 
             // Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Psw);
+            this.Controls.Add(this.LoginText);
             this.Controls.Add(this.registration);
             this.Controls.Add(this.enter);
             this.Controls.Add(this.password);
@@ -98,6 +123,8 @@
         private System.Windows.Forms.Button registration;
         private System.Windows.Forms.TextBox login;
         private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.Label LoginText;
+        private System.Windows.Forms.Label Psw;
     }
 }
 

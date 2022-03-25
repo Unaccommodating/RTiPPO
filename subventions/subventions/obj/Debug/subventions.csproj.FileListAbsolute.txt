@@ -22,6 +22,7 @@ C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
+<<<<<<< HEAD
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
@@ -35,3 +36,8 @@ C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+=======
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+>>>>>>> 06d1151b35bcc96f6f8c283e3f8eb524f5bff073
