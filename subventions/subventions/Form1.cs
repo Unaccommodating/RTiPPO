@@ -33,5 +33,19 @@ namespace subventions
         {
             
         }
+
+        private void ToAddButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddForm form = new AddForm();
+            form.Show();
+        }
+
+        private void ToChangeButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ChangeForm form = new ChangeForm();
+            form.Show();
+        }
     }
 }
