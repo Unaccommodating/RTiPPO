@@ -19,10 +19,17 @@ namespace subventions
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Hide();
+            Form1 reestr = new Form1();
+            reestr.Show();
         }
 
         private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
