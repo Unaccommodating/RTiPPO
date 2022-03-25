@@ -33,16 +33,16 @@
             this.enter = new System.Windows.Forms.Button();
             this.password = new System.Windows.Forms.TextBox();
             this.login = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Psw
             // 
             this.Psw.AutoSize = true;
             this.Psw.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Psw.Location = new System.Drawing.Point(220, 164);
+            this.Psw.Location = new System.Drawing.Point(220, 253);
             this.Psw.Name = "Psw";
             this.Psw.Size = new System.Drawing.Size(73, 23);
             this.Psw.TabIndex = 10;
@@ -52,7 +52,7 @@
             // 
             this.LoginText.AutoSize = true;
             this.LoginText.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginText.Location = new System.Drawing.Point(220, 79);
+            this.LoginText.Location = new System.Drawing.Point(220, 167);
             this.LoginText.Name = "LoginText";
             this.LoginText.Size = new System.Drawing.Size(62, 23);
             this.LoginText.TabIndex = 9;
@@ -72,7 +72,7 @@
             // password
             // 
             this.password.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.password.Location = new System.Drawing.Point(224, 190);
+            this.password.Location = new System.Drawing.Point(224, 279);
             this.password.Multiline = true;
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(357, 40);
@@ -81,32 +81,11 @@
             // login
             // 
             this.login.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login.Location = new System.Drawing.Point(224, 105);
+            this.login.Location = new System.Drawing.Point(224, 193);
             this.login.Multiline = true;
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(357, 40);
             this.login.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(220, 248);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 23);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Повторите пароль";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(224, 274);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 40);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -117,6 +96,27 @@
             this.button1.Text = "назад";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(220, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 23);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "ФИО";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(224, 108);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(357, 40);
+            this.textBox1.TabIndex = 11;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Registration
             // 
@@ -133,6 +133,7 @@
             this.Controls.Add(this.login);
             this.Name = "Registration";
             this.Text = "Registration";
+            this.Load += new System.EventHandler(this.Registration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,8 +146,8 @@
         private System.Windows.Forms.Button enter;
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.TextBox login;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
     }
 }

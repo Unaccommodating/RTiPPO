@@ -40,5 +40,10 @@ namespace subventions
             Welcome form = new Welcome();
             form.Show();
         }
+
+        private void Registration_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

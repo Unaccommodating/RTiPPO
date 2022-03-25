@@ -23,3 +23,5 @@ C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
