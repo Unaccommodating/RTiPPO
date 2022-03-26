@@ -10,18 +10,25 @@ using System.Windows.Forms;
 
 namespace subventions
 {
-    public partial class AddPayment : Form
+    public partial class Registration : Form
     {
-        public AddPayment()
+        public Registration()
         {
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Welcome form = new Welcome();
+            form.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            ChangeForm f = new ChangeForm();
-            f.Show();
-            Close();
+            this.Hide();
+            Welcome form = new Welcome();
+            form.Show();
         }
     }
 }
