@@ -37,3 +37,5 @@ D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subvent
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
