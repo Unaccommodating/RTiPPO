@@ -119,34 +119,34 @@ namespace subventions
             this.label4.TabIndex = 6;
             this.label4.Text = "Год, на который выдана субвенция";
             // 
-            // 
+            // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(292, 95);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Size = new System.Drawing.Size(548, 29);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(412, 24);
+            this.textBox2.Size = new System.Drawing.Size(548, 29);
             this.textBox2.TabIndex = 8;
+            // 
+            // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(295, 140);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Size = new System.Drawing.Size(545, 29);
+            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(412, 24);
+            this.textBox3.Size = new System.Drawing.Size(545, 29);
             this.textBox3.TabIndex = 9;
+            // 
+            // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(347, 186);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Size = new System.Drawing.Size(191, 29);
+            this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(144, 24);
+            this.textBox4.Size = new System.Drawing.Size(191, 29);
             this.textBox4.TabIndex = 10;
+            // 
+            // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -159,44 +159,38 @@ namespace subventions
             this.dataGridView1.Size = new System.Drawing.Size(820, 133);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.TabIndex = 11;
+            // 
+            // Column1
             // 
             this.Column1.HeaderText = "Объём выданных ден. средств";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.Width = 125;
-            this.textBox6.Size = new System.Drawing.Size(191, 29);
-            this.textBox6.TabIndex = 13;
-            this.textBox6.Size = new System.Drawing.Size(191, 29);
+            // 
+            // Column2
+            // 
             this.Column2.HeaderText = "Дата получения денежных средств";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.Width = 125;
-            this.label6.Size = new System.Drawing.Size(309, 20);
-            this.button4.Size = new System.Drawing.Size(100, 40);
-            this.button4.TabIndex = 15;
+            // 
+            // Form3
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.button4.UseVisualStyleBackColor = true;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(857, 453);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Карточка записи";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -212,14 +206,14 @@ namespace subventions
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label6;
     }
 }

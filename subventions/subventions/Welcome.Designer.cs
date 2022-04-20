@@ -87,7 +87,6 @@
             this.LoginText.Size = new System.Drawing.Size(62, 23);
             this.LoginText.TabIndex = 3;
             this.LoginText.Text = "Логин";
-            this.LoginText.Click += new System.EventHandler(this.label1_Click);
             // 
             // Psw
             // 

@@ -33,11 +33,6 @@ namespace subventions
             
         }
 
-<<<<<<< HEAD
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-=======
         private void ToAddButton_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -50,7 +45,6 @@ namespace subventions
             this.Hide();
             ChangeForm form = new ChangeForm();
             form.Show();
->>>>>>> 06d1151b35bcc96f6f8c283e3f8eb524f5bff073
         }
     }
 }

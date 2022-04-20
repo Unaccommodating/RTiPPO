@@ -29,7 +29,6 @@ namespace subventions
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,7 +51,7 @@ namespace subventions
             this.button1.Location = new System.Drawing.Point(929, 31);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 40);
+            this.button1.Size = new System.Drawing.Size(120, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "Поиск";
             this.button1.UseVisualStyleBackColor = true;
@@ -116,7 +115,7 @@ namespace subventions
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
-            this.Column5.Width = 115;
+            this.Column5.Width = 125;
             // 
             // Column6
             // 
@@ -124,13 +123,14 @@ namespace subventions
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
+            this.Column6.Width = 125;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(929, 381);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 40);
+            this.button2.Size = new System.Drawing.Size(120, 49);
             this.button2.TabIndex = 6;
             this.button2.Text = "Удалить";
             this.button2.UseVisualStyleBackColor = true;
@@ -146,7 +146,7 @@ namespace subventions
             this.ToAddButton.UseVisualStyleBackColor = true;
             this.ToAddButton.Click += new System.EventHandler(this.ToAddButton_Click);
             // 
-            // dataGridViewTextBoxColumn6
+            // ToChangeButton
             // 
             this.ToChangeButton.Location = new System.Drawing.Point(929, 314);
             this.ToChangeButton.Name = "ToChangeButton";
@@ -189,7 +189,7 @@ namespace subventions
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1060, 454);
             this.Controls.Add(this.label1);
@@ -200,6 +200,7 @@ namespace subventions
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Просмотр реестра субвенций";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
