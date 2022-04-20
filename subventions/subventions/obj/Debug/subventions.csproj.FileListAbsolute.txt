@@ -40,3 +40,21 @@ D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subvent
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
 D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.AssemblyReference.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
