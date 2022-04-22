@@ -17,17 +17,7 @@ namespace subventions
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void enter_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             Welcome form = new Welcome();
@@ -39,11 +29,6 @@ namespace subventions
             this.Hide();
             Welcome form = new Welcome();
             form.Show();
-        }
-
-        private void Registration_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

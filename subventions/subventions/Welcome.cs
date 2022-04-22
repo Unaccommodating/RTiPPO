@@ -45,10 +45,5 @@ namespace subventions
             Registration form = new Registration();
             form.Show();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
