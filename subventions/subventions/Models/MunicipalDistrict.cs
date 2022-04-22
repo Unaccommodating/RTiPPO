@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace subventions.Models
+class MunicipalDistrict
 {
-    class MunicipalDistrict
-    {
-    }
+	private int id;
+	private string name;
+
+	public int Id { get => id; set => id = value; }
+	public string Name { get => name; set => name = value; }
 }
