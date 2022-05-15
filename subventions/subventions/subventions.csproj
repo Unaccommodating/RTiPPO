@@ -97,14 +97,18 @@
     <Compile Include="AddForm.Designer.cs">
       <DependentUpon>AddForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPayment.Designer.cs">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChangeForm.Designer.cs">
       <DependentUpon>ChangeForm.cs</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
-=======
     <Compile Include="ChangePayment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,7 +120,7 @@
     <Compile Include="Controllers\Delete.cs" />
     <Compile Include="Controllers\Registration.cs" />
     <Compile Include="DataBase\DataBase.cs" />
->>>>>>> Stashed changes
+    <Compile Include="Controllers\ControllerAddOrEdit.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +133,11 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\MunicipalDistrict.cs" />
+    <Compile Include="Models\Organisation.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Subvention.cs" />
+    <Compile Include="Models\Type.cs" />
     <Compile Include="newForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,8 +161,14 @@
     <EmbeddedResource Include="AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddPayment.resx">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChangeForm.resx">
       <DependentUpon>ChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePayment.resx">
+      <DependentUpon>ChangePayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

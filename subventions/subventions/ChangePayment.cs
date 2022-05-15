@@ -10,26 +10,23 @@ using System.Windows.Forms;
 
 namespace subventions
 {
-    public partial class Form3 : Form
+    public partial class ChangePayment : Form
     {
-        public Form3()
+        public ChangePayment()
         {
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            ChangeForm f = new ChangeForm();
+            f.Show();
+            Close();
         }
     }
 }
