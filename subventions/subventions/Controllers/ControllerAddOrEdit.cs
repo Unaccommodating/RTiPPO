@@ -6,23 +6,37 @@ using System.Threading.Tasks;
 
 class ControllerAddOrEdit
 {
-    public void addRecord(int id, int destributor, int recipient, DateTime year)
-    {
+    string message = "";
 
+    public string addRecord(Subvention record)
+    {
+        return message;
     }
 
-    public void editRecord(int id, int destributor, int recipient, DateTime year)
+    public string editRecord(Subvention record)
     {
-
+        return message;
     }
 
-    public void addPayment(int amount, DateTime pay_date)
+    public string addPayment(Payment payment)
     {
-
+        return message;
     }
 
-    public void editPayment(int amount, DateTime pay_date)
+    public string editPayment(Payment payment)
     {
+        return message;
+    }
 
+    public List<Subvention> getRecord(int id)
+    {
+        List<Subvention> subventions = new List<Subvention>();
+        return subventions;
+    }
+
+    public List<Payment> getPayment(int id)
+    {
+        List<Payment> payments = new List<Payment>();
+        return payments;
     }
 }
