@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace subventions
 {
-    public partial class Form3 : Form
+    public partial class Record : Form
     {
-        public Form3()
+        public Record()
         {
             InitializeComponent();
         }

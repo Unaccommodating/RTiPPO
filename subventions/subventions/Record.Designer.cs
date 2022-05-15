@@ -1,7 +1,7 @@
 ﻿
 namespace subventions
 {
-    partial class Form3
+    partial class Record
     {
         /// <summary>
         /// Required designer variable.

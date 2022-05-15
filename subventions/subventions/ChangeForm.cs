@@ -19,7 +19,7 @@ namespace subventions
 
         private void ChangeCloseButton_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            Registry f = new Registry();
             f.Show();
             Close();
         }
@@ -45,7 +45,7 @@ namespace subventions
 
         private void ChangeButton_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            Registry f = new Registry();
             f.Show();
             Close();
         }

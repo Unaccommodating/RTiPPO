@@ -1,7 +1,7 @@
 ﻿
 namespace subventions
 {
-    partial class Form1
+    partial class Registry
     {
         /// <summary>
         /// Обязательная переменная конструктора.

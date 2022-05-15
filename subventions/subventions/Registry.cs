@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace subventions
 {
-    public partial class Form1 : Form
+    public partial class Registry : Form
     {
-        public Form1()
+        public Registry()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form = new Form3();
+            Record form = new Record();
             form.ShowDialog();
         }
 

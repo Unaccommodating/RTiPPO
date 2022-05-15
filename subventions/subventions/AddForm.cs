@@ -19,7 +19,7 @@ namespace subventions
 
         private void AddCloseButton_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            Registry f = new Registry();
             f.Show();
             Close();
         }
