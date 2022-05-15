@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 public class Subvention
 {
-	private int id;
+	public int id;
 	private int destributor;
 	private int recipient;
 	private DateTime year;

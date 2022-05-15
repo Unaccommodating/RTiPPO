@@ -11,7 +11,7 @@ class ControllerRegistry
 		List<Subvention> subventions = new List<Subvention>();
 		return subventions;
 	}
-	public List<Subvention> Records(int paramsSort, string paramsFilter)
+	public List<Subvention> Records(int[] paramsSort, string[] paramsFilter)
     {
 		List<Subvention> subventions = new List<Subvention>();
 		return subventions;
