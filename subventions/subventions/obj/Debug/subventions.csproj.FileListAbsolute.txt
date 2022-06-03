@@ -1,0 +1,187 @@
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csprojAssemblyReference.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.AssemblyReference.cache
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+D:\Users\pr0ug\Documents\GitHub\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Npgsql.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Memory.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.dll
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\Npgsql.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Memory.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.xml
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Registry.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.Record.resources
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CopyComplete
+C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\Git-разработка\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.AssemblyReference.cache
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Npgsql.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Memory.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.dll
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Npgsql.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Memory.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.xml
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.AssemblyReference.cache
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registry.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Record.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+E:\Азат\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\subventions.exe.config
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\subventions.exe
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\subventions.pdb
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Npgsql.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\Npgsql.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.csprojAssemblyReference.cache
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.AddPayment.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangePayment.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.Registry.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.Record.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.newForm.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.Properties.Resources.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.Welcome.resources
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.GenerateResource.cache
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CopyComplete
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
+C:\Users\User\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
