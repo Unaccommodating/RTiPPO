@@ -121,6 +121,9 @@
     <Compile Include="Controllers\Registration.cs" />
     <Compile Include="DataBase\DataBase.cs" />
     <Compile Include="Controllers\ControllerAddOrEdit.cs" />
+    <Compile Include="DataBase\DataBaseRoma.cs" />
+    <Compile Include="DataBase\DataBaseAzat.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Registry.cs">
       <SubType>Form</SubType>
     </Compile>
