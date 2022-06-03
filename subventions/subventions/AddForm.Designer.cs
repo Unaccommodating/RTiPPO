@@ -35,14 +35,14 @@ namespace subventions
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.AddMun = new System.Windows.Forms.TextBox();
-            this.AddTaker = new System.Windows.Forms.TextBox();
-            this.AddGiver = new System.Windows.Forms.TextBox();
-            this.AddYear = new System.Windows.Forms.TextBox();
             this.AddAmount = new System.Windows.Forms.TextBox();
-            this.AddDate = new System.Windows.Forms.TextBox();
             this.AddButton = new System.Windows.Forms.Button();
             this.AddCloseButton = new System.Windows.Forms.Button();
+            this.AddGiver = new System.Windows.Forms.ComboBox();
+            this.AddTaker = new System.Windows.Forms.ComboBox();
+            this.AddMun = new System.Windows.Forms.ComboBox();
+            this.AddDate = new System.Windows.Forms.DateTimePicker();
+            this.AddYear = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label6
@@ -111,47 +111,12 @@ namespace subventions
             this.label1.TabIndex = 13;
             this.label1.Text = "Муниципальноe образование";
             // 
-            // AddMun
-            // 
-            this.AddMun.Location = new System.Drawing.Point(371, 44);
-            this.AddMun.Name = "AddMun";
-            this.AddMun.Size = new System.Drawing.Size(402, 22);
-            this.AddMun.TabIndex = 19;
-            // 
-            // AddTaker
-            // 
-            this.AddTaker.Location = new System.Drawing.Point(371, 85);
-            this.AddTaker.Name = "AddTaker";
-            this.AddTaker.Size = new System.Drawing.Size(402, 22);
-            this.AddTaker.TabIndex = 20;
-            // 
-            // AddGiver
-            // 
-            this.AddGiver.Location = new System.Drawing.Point(371, 127);
-            this.AddGiver.Name = "AddGiver";
-            this.AddGiver.Size = new System.Drawing.Size(402, 22);
-            this.AddGiver.TabIndex = 21;
-            // 
-            // AddYear
-            // 
-            this.AddYear.Location = new System.Drawing.Point(371, 172);
-            this.AddYear.Name = "AddYear";
-            this.AddYear.Size = new System.Drawing.Size(175, 22);
-            this.AddYear.TabIndex = 22;
-            // 
             // AddAmount
             // 
             this.AddAmount.Location = new System.Drawing.Point(371, 215);
             this.AddAmount.Name = "AddAmount";
             this.AddAmount.Size = new System.Drawing.Size(175, 22);
             this.AddAmount.TabIndex = 23;
-            // 
-            // AddDate
-            // 
-            this.AddDate.Location = new System.Drawing.Point(371, 258);
-            this.AddDate.Name = "AddDate";
-            this.AddDate.Size = new System.Drawing.Size(175, 22);
-            this.AddDate.TabIndex = 24;
             // 
             // AddButton
             // 
@@ -161,6 +126,7 @@ namespace subventions
             this.AddButton.TabIndex = 25;
             this.AddButton.Text = "Добавить";
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // AddCloseButton
             // 
@@ -172,19 +138,61 @@ namespace subventions
             this.AddCloseButton.UseVisualStyleBackColor = true;
             this.AddCloseButton.Click += new System.EventHandler(this.AddCloseButton_Click);
             // 
+            // AddGiver
+            // 
+            this.AddGiver.FormattingEnabled = true;
+            this.AddGiver.Location = new System.Drawing.Point(371, 130);
+            this.AddGiver.Name = "AddGiver";
+            this.AddGiver.Size = new System.Drawing.Size(343, 24);
+            this.AddGiver.TabIndex = 27;
+            // 
+            // AddTaker
+            // 
+            this.AddTaker.FormattingEnabled = true;
+            this.AddTaker.Location = new System.Drawing.Point(371, 85);
+            this.AddTaker.Name = "AddTaker";
+            this.AddTaker.Size = new System.Drawing.Size(343, 24);
+            this.AddTaker.TabIndex = 28;
+            // 
+            // AddMun
+            // 
+            this.AddMun.FormattingEnabled = true;
+            this.AddMun.Location = new System.Drawing.Point(371, 44);
+            this.AddMun.Name = "AddMun";
+            this.AddMun.Size = new System.Drawing.Size(343, 24);
+            this.AddMun.TabIndex = 29;
+            this.AddMun.SelectedIndexChanged += new System.EventHandler(this.AddMun_SelectedIndexChanged);
+            // 
+            // AddDate
+            // 
+            this.AddDate.Location = new System.Drawing.Point(371, 257);
+            this.AddDate.Name = "AddDate";
+            this.AddDate.Size = new System.Drawing.Size(175, 22);
+            this.AddDate.TabIndex = 30;
+            // 
+            // AddYear
+            // 
+            this.AddYear.CustomFormat = "yyyy";
+            this.AddYear.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.AddYear.Location = new System.Drawing.Point(371, 172);
+            this.AddYear.Name = "AddYear";
+            this.AddYear.ShowUpDown = true;
+            this.AddYear.Size = new System.Drawing.Size(175, 22);
+            this.AddYear.TabIndex = 31;
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 396);
+            this.Controls.Add(this.AddYear);
+            this.Controls.Add(this.AddDate);
+            this.Controls.Add(this.AddMun);
+            this.Controls.Add(this.AddTaker);
+            this.Controls.Add(this.AddGiver);
             this.Controls.Add(this.AddCloseButton);
             this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.AddDate);
             this.Controls.Add(this.AddAmount);
-            this.Controls.Add(this.AddYear);
-            this.Controls.Add(this.AddGiver);
-            this.Controls.Add(this.AddTaker);
-            this.Controls.Add(this.AddMun);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -206,13 +214,13 @@ namespace subventions
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox AddMun;
-        private System.Windows.Forms.TextBox AddTaker;
-        private System.Windows.Forms.TextBox AddGiver;
-        private System.Windows.Forms.TextBox AddYear;
         private System.Windows.Forms.TextBox AddAmount;
-        private System.Windows.Forms.TextBox AddDate;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.Button AddCloseButton;
+        private System.Windows.Forms.ComboBox AddGiver;
+        private System.Windows.Forms.ComboBox AddTaker;
+        private System.Windows.Forms.ComboBox AddMun;
+        private System.Windows.Forms.DateTimePicker AddDate;
+        private System.Windows.Forms.DateTimePicker AddYear;
     }
 }

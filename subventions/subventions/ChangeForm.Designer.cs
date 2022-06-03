@@ -31,10 +31,6 @@ namespace subventions
         {
             this.ChangeCloseButton = new System.Windows.Forms.Button();
             this.ChangeButton = new System.Windows.Forms.Button();
-            this.ChangeYear = new System.Windows.Forms.TextBox();
-            this.ChangeGiver = new System.Windows.Forms.TextBox();
-            this.ChangeTaker = new System.Windows.Forms.TextBox();
-            this.ChangeMun = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,9 +38,13 @@ namespace subventions
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.form_change_button = new System.Windows.Forms.Button();
+            this.form_add_button = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.ChangeMun = new System.Windows.Forms.ComboBox();
+            this.ChangeTaker = new System.Windows.Forms.ComboBox();
+            this.ChangeGiver = new System.Windows.Forms.ComboBox();
+            this.ChangeYear = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,34 +67,6 @@ namespace subventions
             this.ChangeButton.Text = "Сохранить";
             this.ChangeButton.UseVisualStyleBackColor = true;
             this.ChangeButton.Click += new System.EventHandler(this.ChangeButton_Click);
-            // 
-            // ChangeYear
-            // 
-            this.ChangeYear.Location = new System.Drawing.Point(372, 169);
-            this.ChangeYear.Name = "ChangeYear";
-            this.ChangeYear.Size = new System.Drawing.Size(175, 22);
-            this.ChangeYear.TabIndex = 36;
-            // 
-            // ChangeGiver
-            // 
-            this.ChangeGiver.Location = new System.Drawing.Point(372, 124);
-            this.ChangeGiver.Name = "ChangeGiver";
-            this.ChangeGiver.Size = new System.Drawing.Size(402, 22);
-            this.ChangeGiver.TabIndex = 35;
-            // 
-            // ChangeTaker
-            // 
-            this.ChangeTaker.Location = new System.Drawing.Point(372, 82);
-            this.ChangeTaker.Name = "ChangeTaker";
-            this.ChangeTaker.Size = new System.Drawing.Size(402, 22);
-            this.ChangeTaker.TabIndex = 34;
-            // 
-            // ChangeMun
-            // 
-            this.ChangeMun.Location = new System.Drawing.Point(372, 41);
-            this.ChangeMun.Name = "ChangeMun";
-            this.ChangeMun.Size = new System.Drawing.Size(402, 22);
-            this.ChangeMun.TabIndex = 33;
             // 
             // label4
             // 
@@ -152,7 +124,6 @@ namespace subventions
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(742, 118);
             this.dataGridView1.TabIndex = 41;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -168,25 +139,25 @@ namespace subventions
             this.Column2.Name = "Column2";
             this.Column2.Width = 125;
             // 
-            // button1
+            // form_change_button
             // 
-            this.button1.Location = new System.Drawing.Point(457, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 42);
-            this.button1.TabIndex = 42;
-            this.button1.Text = "Изменить платеж";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.form_change_button.Location = new System.Drawing.Point(457, 367);
+            this.form_change_button.Name = "form_change_button";
+            this.form_change_button.Size = new System.Drawing.Size(103, 42);
+            this.form_change_button.TabIndex = 42;
+            this.form_change_button.Text = "Изменить платеж";
+            this.form_change_button.UseVisualStyleBackColor = true;
+            this.form_change_button.Click += new System.EventHandler(this.form_change_button_Click);
             // 
-            // button2
+            // form_add_button
             // 
-            this.button2.Location = new System.Drawing.Point(348, 367);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 42);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "Добавить платеж";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.form_add_button.Location = new System.Drawing.Point(348, 367);
+            this.form_add_button.Name = "form_add_button";
+            this.form_add_button.Size = new System.Drawing.Size(103, 42);
+            this.form_add_button.TabIndex = 43;
+            this.form_add_button.Text = "Добавить платеж";
+            this.form_add_button.UseVisualStyleBackColor = true;
+            this.form_add_button.Click += new System.EventHandler(this.form_add_button_Click);
             // 
             // button3
             // 
@@ -197,21 +168,55 @@ namespace subventions
             this.button3.Text = "Удалить платеж";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // ChangeMun
+            // 
+            this.ChangeMun.FormattingEnabled = true;
+            this.ChangeMun.Location = new System.Drawing.Point(372, 43);
+            this.ChangeMun.Name = "ChangeMun";
+            this.ChangeMun.Size = new System.Drawing.Size(369, 24);
+            this.ChangeMun.TabIndex = 45;
+            this.ChangeMun.SelectedIndexChanged += new System.EventHandler(this.ChangeMun_SelectedIndexChanged);
+            // 
+            // ChangeTaker
+            // 
+            this.ChangeTaker.FormattingEnabled = true;
+            this.ChangeTaker.Location = new System.Drawing.Point(372, 84);
+            this.ChangeTaker.Name = "ChangeTaker";
+            this.ChangeTaker.Size = new System.Drawing.Size(369, 24);
+            this.ChangeTaker.TabIndex = 46;
+            // 
+            // ChangeGiver
+            // 
+            this.ChangeGiver.FormattingEnabled = true;
+            this.ChangeGiver.Location = new System.Drawing.Point(372, 127);
+            this.ChangeGiver.Name = "ChangeGiver";
+            this.ChangeGiver.Size = new System.Drawing.Size(369, 24);
+            this.ChangeGiver.TabIndex = 47;
+            // 
+            // ChangeYear
+            // 
+            this.ChangeYear.CustomFormat = "yyyy";
+            this.ChangeYear.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.ChangeYear.Location = new System.Drawing.Point(372, 167);
+            this.ChangeYear.Name = "ChangeYear";
+            this.ChangeYear.Size = new System.Drawing.Size(200, 22);
+            this.ChangeYear.TabIndex = 48;
+            // 
             // ChangeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 434);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.ChangeCloseButton);
-            this.Controls.Add(this.ChangeButton);
             this.Controls.Add(this.ChangeYear);
             this.Controls.Add(this.ChangeGiver);
             this.Controls.Add(this.ChangeTaker);
             this.Controls.Add(this.ChangeMun);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.form_add_button);
+            this.Controls.Add(this.form_change_button);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ChangeCloseButton);
+            this.Controls.Add(this.ChangeButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -228,10 +233,6 @@ namespace subventions
 
         private System.Windows.Forms.Button ChangeCloseButton;
         private System.Windows.Forms.Button ChangeButton;
-        private System.Windows.Forms.TextBox ChangeYear;
-        private System.Windows.Forms.TextBox ChangeGiver;
-        private System.Windows.Forms.TextBox ChangeTaker;
-        private System.Windows.Forms.TextBox ChangeMun;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -239,8 +240,12 @@ namespace subventions
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button form_change_button;
+        private System.Windows.Forms.Button form_add_button;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox ChangeMun;
+        private System.Windows.Forms.ComboBox ChangeTaker;
+        private System.Windows.Forms.ComboBox ChangeGiver;
+        private System.Windows.Forms.DateTimePicker ChangeYear;
     }
 }
