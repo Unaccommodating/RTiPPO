@@ -30,8 +30,8 @@
         {
             this.enter = new System.Windows.Forms.Button();
             this.registration = new System.Windows.Forms.Button();
-            this.login = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
+            this.loginTextBox = new System.Windows.Forms.TextBox();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.LoginText = new System.Windows.Forms.Label();
             this.Psw = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -58,25 +58,25 @@
             this.registration.UseVisualStyleBackColor = true;
             this.registration.Click += new System.EventHandler(this.registration_Click);
             // 
-            // login
+            // loginTextBox
             // 
-            this.login.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login.Location = new System.Drawing.Point(222, 107);
-            this.login.Multiline = true;
-            this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(357, 40);
-            this.login.TabIndex = 0;
-            this.login.TextChanged += new System.EventHandler(this.Login_TextChanged);
+            this.loginTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.loginTextBox.Location = new System.Drawing.Point(222, 107);
+            this.loginTextBox.Multiline = true;
+            this.loginTextBox.Name = "loginTextBox";
+            this.loginTextBox.Size = new System.Drawing.Size(357, 40);
+            this.loginTextBox.TabIndex = 0;
+            this.loginTextBox.TextChanged += new System.EventHandler(this.Login_TextChanged);
             // 
-            // password
+            // passwordTextBox
             // 
-            this.password.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.password.Location = new System.Drawing.Point(222, 192);
-            this.password.Multiline = true;
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(357, 40);
-            this.password.TabIndex = 0;
-            this.password.TextChanged += new System.EventHandler(this.Password_TextChanged);
+            this.passwordTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passwordTextBox.Location = new System.Drawing.Point(222, 192);
+            this.passwordTextBox.Multiline = true;
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(357, 40);
+            this.passwordTextBox.TabIndex = 0;
+            this.passwordTextBox.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
             // LoginText
             // 
@@ -107,8 +107,8 @@
             this.Controls.Add(this.LoginText);
             this.Controls.Add(this.registration);
             this.Controls.Add(this.enter);
-            this.Controls.Add(this.password);
-            this.Controls.Add(this.login);
+            this.Controls.Add(this.passwordTextBox);
+            this.Controls.Add(this.loginTextBox);
             this.Name = "Welcome";
             this.Text = "Авторизация";
             this.Load += new System.EventHandler(this.Welcome_Load);
@@ -120,8 +120,8 @@
         #endregion
         private System.Windows.Forms.Button enter;
         private System.Windows.Forms.Button registration;
-        private System.Windows.Forms.TextBox login;
-        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox loginTextBox;
+        private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.Label LoginText;
         private System.Windows.Forms.Label Psw;
     }

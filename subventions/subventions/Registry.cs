@@ -22,7 +22,7 @@ namespace subventions
         public Registry()
         {
             InitializeComponent();
-            DataTable subventions = new ControllerRegistry().Records(pageNow);
+           /* DataTable subventions = new ControllerRegistry().Records(pageNow);
 
             DataSet table = new DataSet();
             
@@ -31,7 +31,7 @@ namespace subventions
             DataGridView DGV = dataGridView1;
             DGV.Columns.Clear();
             DGV.DataSource = table.Tables[0];
-            DGV.Columns["id"].Visible = false;
+            DGV.Columns["id"].Visible = false;*/
 
             //    MessageBox.Show($"{subventions[0]}");
         }
@@ -57,14 +57,15 @@ namespace subventions
 
         private void ToAddButton_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AddForm form = new AddForm();
             form.Show();
         }
 
         private void ToChangeButton_Click(object sender, EventArgs e)
         {
-            var subvention_id = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells;
-            ChangeForm form = new ChangeForm(subvention_id);
+            this.Hide();
+            ChangeForm form = new ChangeForm();
             form.Show();
         }
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using models.Users;
+using subventions.Controllers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,10 @@ namespace subventions
 {
     public partial class Welcome : Form
     {
+        private string login;
+        private string password;
+        AuthController authControllers = new AuthController();
+
         public Welcome()
         {
             InitializeComponent();
@@ -34,6 +40,11 @@ namespace subventions
 
         private void Enter_Click(object sender, EventArgs e)
         {
+            login = loginTextBox.Text;
+            password = passwordTextBox.Text;
+            string answer = authControllers.Enter(login, password);
+            MessageBox.Show(answer);
+            var user = new Users(login);
             this.Hide();
             Registry form = new Registry();
             form.Show();

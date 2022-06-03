@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using System.Data;
-using subventions.DataBaseRoma;
+using subventions.DataBaseAzat;
+using System.Diagnostics;
+using subventions.DataBaseNameSpace;
 
 namespace models.Users
 {
 	public class Users
 	{
-		public string login;
+		private string login;
 		private int role;
 		private int organization;
 		private string password;
 		private string fullname;
 
-		public Users(string login)
+		public Users(string login1)
 		{
-			DataBaseRoma DB = new DataBaseRoma($"SELECT * FROM users WHERE login='{login}'");
-
+			DataBase DB = new DataBase($"SELECT * FROM users WHERE login='{login1}'");
+			MessageBox.Show(DB.data.Rows.Count.ToString());
 			Login = (string)DB.data.Rows[0]["login"];
 			Role = (int)DB.data.Rows[0]["role_id"];
 			Organization = (int)DB.data.Rows[0]["org_id"];

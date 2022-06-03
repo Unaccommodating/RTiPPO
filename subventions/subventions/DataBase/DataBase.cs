@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace subventions.DataBase
+namespace subventions.DataBaseNameSpace
 {
     class DataBase
     {

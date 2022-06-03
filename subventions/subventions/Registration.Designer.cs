@@ -30,10 +30,10 @@ namespace subventions
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.password = new System.Windows.Forms.TextBox();
-            this.login = new System.Windows.Forms.TextBox();
+            this.loginTextBox = new System.Windows.Forms.TextBox();
+            this.fioTextBox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,23 +50,25 @@ namespace subventions
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // password
+            // loginTextBox
             // 
-            this.password.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.password.Location = new System.Drawing.Point(222, 177);
-            this.password.Multiline = true;
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(357, 40);
-            this.password.TabIndex = 3;
+            this.loginTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.loginTextBox.Location = new System.Drawing.Point(222, 177);
+            this.loginTextBox.Multiline = true;
+            this.loginTextBox.Name = "loginTextBox";
+            this.loginTextBox.Size = new System.Drawing.Size(357, 40);
+            this.loginTextBox.TabIndex = 3;
+            this.loginTextBox.TextChanged += new System.EventHandler(this.login_TextChanged);
             // 
-            // login
+            // fioTextBox
             // 
-            this.login.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login.Location = new System.Drawing.Point(222, 92);
-            this.login.Multiline = true;
-            this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(357, 40);
-            this.login.TabIndex = 4;
+            this.fioTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fioTextBox.Location = new System.Drawing.Point(222, 92);
+            this.fioTextBox.Multiline = true;
+            this.fioTextBox.Name = "fioTextBox";
+            this.fioTextBox.Size = new System.Drawing.Size(357, 40);
+            this.fioTextBox.TabIndex = 4;
+            this.fioTextBox.TextChanged += new System.EventHandler(this.fio_TextChanged);
             // 
             // button2
             // 
@@ -78,14 +80,15 @@ namespace subventions
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox1
+            // passwordTextBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(222, 258);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 40);
-            this.textBox1.TabIndex = 8;
+            this.passwordTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passwordTextBox.Location = new System.Drawing.Point(222, 258);
+            this.passwordTextBox.Multiline = true;
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(357, 40);
+            this.passwordTextBox.TabIndex = 8;
+            this.passwordTextBox.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // label1
             // 
@@ -122,13 +125,14 @@ namespace subventions
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.password);
-            this.Controls.Add(this.login);
+            this.Controls.Add(this.loginTextBox);
+            this.Controls.Add(this.fioTextBox);
             this.Name = "Registration";
             this.Text = "Registration";
+            this.Load += new System.EventHandler(this.Registration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,10 +141,10 @@ namespace subventions
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox password;
-        private System.Windows.Forms.TextBox login;
+        private System.Windows.Forms.TextBox loginTextBox;
+        private System.Windows.Forms.TextBox fioTextBox;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

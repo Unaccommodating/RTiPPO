@@ -1,4 +1,5 @@
-﻿using System;
+﻿using subventions.Controllers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,10 @@ namespace subventions
 {
     public partial class Registration : Form
     {
+        private string fio;
+        private string login;
+        private string password;
+        RegistrationController registrationController = new RegistrationController();
         public Registration()
         {
             InitializeComponent();
@@ -25,10 +30,42 @@ namespace subventions
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {  
+            fio = fioTextBox.Text;
+            login = loginTextBox.Text;
+            password = passwordTextBox.Text;
+            string answer = registrationController.Enter(login, fio, password);
+            if (answer == "")
+            {
+                this.Hide();
+                Welcome form = new Welcome();
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show(answer);
+            }
+            
+        }
+
+        private void Registration_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            Welcome form = new Welcome();
-            form.Show();
+
+        }
+
+        private void login_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fio_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
