@@ -15,7 +15,7 @@ namespace subventions.Controllers
         {
             if (fio.Length < 3)
             {
-                message = "Введите имя";
+                message = "Слишком короткое имя";
                 return message;
             }
             if (login.Length < 3)
@@ -30,7 +30,14 @@ namespace subventions.Controllers
             }
             else
             {
-                _ = new DataBase($"INSERT INTO users(login, password, fullname, role_id, org_id) VALUES('{login}', '{password}', '{fio}', 0, 0); ");
+                try
+                {
+                    _ = new DataBase($"INSERT INTO users(login, password, fullname, role_id, org_id) VALUES('{login}', '{password}', '{fio}', 0, 0); ");
+                }
+                catch
+                {
+                    System.Windows.Forms.MessageBox.Show("Логин занят!");
+                }
                 message = "";
                 return message;
             }

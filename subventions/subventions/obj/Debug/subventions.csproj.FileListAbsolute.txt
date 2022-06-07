@@ -20,8 +20,6 @@ C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
 C:\Users\azata\OneDrive\Документы\Учёба\Абдуллин ИСиТ\3_курс\РТиППО 2 сем\РТиППО Разработка\A_Общий проект\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
-D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form1.resources
-D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Form3.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registration.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.AddForm.resources
 D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.ChangeForm.resources
@@ -185,3 +183,34 @@ D:\Users\pr0ug\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.cspr
 D:\Users\pr0ug\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CopyComplete
 D:\Users\pr0ug\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.exe
 D:\Users\pr0ug\Desktop\RTiPPO\subventions\subventions\obj\Debug\subventions.pdb
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Registry.resources
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.Record.resources
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Npgsql.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Memory.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.dll
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\Npgsql.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Buffers.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Collections.Immutable.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Memory.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Numerics.Vectors.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Encodings.Web.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Text.Json.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Channels.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\РТиППО\RTiPPO\subventions\subventions\bin\Debug\System.ValueTuple.xml
+D:\РТиППО\RTiPPO\subventions\subventions\obj\Debug\subventions.csproj.CopyComplete

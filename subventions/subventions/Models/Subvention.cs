@@ -18,7 +18,7 @@ namespace models.Subvention
 
 		public Subvention(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM subvention WHERE subv_id={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM public.\"Subvention\" WHERE subv_id={id}");
 
 			Destributor = (int)DB.data.Rows[0]["distributor"];
 			Recipient = (int)DB.data.Rows[0]["recipient"];
@@ -35,7 +35,7 @@ namespace models.Subvention
 
 		public static List<Subvention> Enumeration(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM subvention WHERE recipient={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM public.\"Subvention\" WHERE recipient={id}");
 			DataTable input = DB.data;
 			List<Subvention> output = new List<Subvention>();
 			DataRow[] rows = input.Select();
@@ -48,7 +48,7 @@ namespace models.Subvention
 
 		public static List<Subvention> filter(string column, string text)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM subvention WHERE {column}={text}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM public.\"Subvention\" WHERE {column}={text}");
 			DataTable input = DB.data;
 			List<Subvention> output = new List<Subvention>();
 			DataRow[] rows = input.Select();

@@ -25,7 +25,7 @@ namespace subventions
 
         private void Welcome_Load(object sender, EventArgs e)
         {
-
+            passwordTextBox.PasswordChar = '•';
         }
 
         private void Login_TextChanged(object sender, EventArgs e)
@@ -41,13 +41,20 @@ namespace subventions
         private void Enter_Click(object sender, EventArgs e)
         {
             login = loginTextBox.Text;
-            password = passwordTextBox.Text;
+            password = md5.hashPassword(passwordTextBox.Text);
             string answer = authControllers.Enter(login, password);
-            MessageBox.Show(answer);
-            var user = new Users(login);
-            this.Hide();
-            Registry form = new Registry();
-            form.Show();
+            if (answer != "")
+            {
+                MessageBox.Show(answer);
+            }
+            else
+            {
+                var user = new Users(login);
+                this.Hide();
+                Registry form = new Registry(user);
+                form.Show();
+                
+            }
         }
 
         private void registration_Click(object sender, EventArgs e)

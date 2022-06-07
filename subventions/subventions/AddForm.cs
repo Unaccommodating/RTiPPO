@@ -17,7 +17,7 @@ namespace subventions
         public AddForm()
         {
             InitializeComponent();
-            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=12345;");
+            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=root;");
 
             conn.Open();
                 DataTable dt_mun = new DataTable();
@@ -33,7 +33,7 @@ namespace subventions
 
         private void AddMun_SelectedIndexChanged(object sender, EventArgs e)
         {
-            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=12345;");
+            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=root;");
             
             conn.Open();
                 DataTable dt_taker = new DataTable();
@@ -62,7 +62,7 @@ namespace subventions
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=12345;");
+            NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=root;");
 
             conn.Open();
                 NpgsqlCommand sub_comm = new NpgsqlCommand("select count(*) from subvention", conn);

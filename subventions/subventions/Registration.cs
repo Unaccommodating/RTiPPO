@@ -33,7 +33,7 @@ namespace subventions
         {  
             fio = fioTextBox.Text;
             login = loginTextBox.Text;
-            password = passwordTextBox.Text;
+            password = md5.hashPassword(passwordTextBox.Text);
             string answer = registrationController.Enter(login, fio, password);
             if (answer == "")
             {
@@ -50,7 +50,7 @@ namespace subventions
 
         private void Registration_Load(object sender, EventArgs e)
         {
-
+            passwordTextBox.PasswordChar = '•';
         }
 
         private void login_TextChanged(object sender, EventArgs e)

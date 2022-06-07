@@ -10,6 +10,7 @@ using models.district;
 using models.Payment;
 using System.Windows.Forms;
 using System.Data;
+using models.Users;
 
 namespace subventions.Controllers{
 	class ControllerRegistry
@@ -19,7 +20,7 @@ namespace subventions.Controllers{
         private static int page = 1;
 
 
-        public DataTable Records(int pageNow)
+        public DataTable Records(int pageNow, Users user)
         {
             var iter = 0;
             page = pageNow;
@@ -30,7 +31,7 @@ namespace subventions.Controllers{
             data.Columns.Add("Год", typeof(DateTime));
             data.Columns.Add("Сумма");
 
-            models.Users.Users user = new models.Users.Users("admin");
+           
             Organisation organisation = new Organisation(user.Organization);
             MunicipalDistrict districtName = new MunicipalDistrict(organisation.Distr_id);
             List<Organisation> organisationsList = organisation.Enumeration(organisation.Distr_id);

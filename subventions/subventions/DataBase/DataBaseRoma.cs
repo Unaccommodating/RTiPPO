@@ -14,7 +14,7 @@ namespace subventions.DataBaseRoma
 
         public DataBaseRoma(string request)
         {
-            NpgsqlConnection connector = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=12345;");
+            NpgsqlConnection connector = new NpgsqlConnection("Server=localhost;Port=5432;Database=subventions;User Id=postgres;Password=root;");
             connector.Open();
             NpgsqlCommand command = new NpgsqlCommand();
             command.Connection = connector;

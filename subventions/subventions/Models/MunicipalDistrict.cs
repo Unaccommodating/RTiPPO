@@ -13,7 +13,7 @@ namespace models.district
         private int id;
         private string name;
 	    public MunicipalDistrict(int id){
-            DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM MunicipalDistrict WHERE distr_id={id}");
+            DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM \"MunicipalDistrict\" WHERE distr_id={id}");
 
             Name = (string)DB.data.Rows[0]["distr_name"];
             Id = (int)DB.data.Rows[0]["distr_id"];

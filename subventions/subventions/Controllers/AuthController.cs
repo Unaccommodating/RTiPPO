@@ -17,7 +17,6 @@ namespace subventions.Controllers
                 DataBase DB = new DataBase($"SELECT login, password FROM users WHERE login='{login}' AND password='{password}'");
                 string loginAnswer = (string)DB.data.Rows[0]["login"];
                 string passwordAnswer = (string)DB.data.Rows[0]["password"];
-                string message = ($"Добро пожаловать: {loginAnswer}");
                 return message;
             }
             catch (IndexOutOfRangeException)

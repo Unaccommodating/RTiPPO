@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using subventions.Controllers;
 using models.Subvention;
-
+using models.Users;
 
 namespace subventions
 {
@@ -17,25 +17,28 @@ namespace subventions
     {
         string[] sort = new string[2]; 
         string[] filter = new string[2] { "", "organisation1" };
-
+        private Users user;
         public int pageNow = 1;
-        public Registry()
+        public Registry(Users user)
         {
             InitializeComponent();
-           /* DataTable subventions = new ControllerRegistry().Records(pageNow);
+            this.user = user;
+            FillDataGridWithSubv();
+        }
+
+        private void FillDataGridWithSubv()
+        {
+            DataTable subventions = new ControllerRegistry().Records(pageNow, user);
 
             DataSet table = new DataSet();
-            
+
             table.Tables.Add(subventions);
 
             DataGridView DGV = dataGridView1;
             DGV.Columns.Clear();
             DGV.DataSource = table.Tables[0];
-            DGV.Columns["id"].Visible = false;*/
-
-            //    MessageBox.Show($"{subventions[0]}");
+            DGV.Columns["id"].Visible = false;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             DataTable subventions = new ControllerRegistry().Records(sort, filter);
@@ -52,7 +55,14 @@ namespace subventions
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            List<int> subvention_id = new List<int>();
+            for (int i = 0; i < dataGridView1.SelectedRows.Count; i++)
+            {
+                subvention_id.Add(Convert.ToInt32(dataGridView1.SelectedRows[i].Cells["id"].Value));
+            }
+            Delete.DeleteSubvention(subvention_id);
+            FillDataGridWithSubv();
+
         }
 
         private void ToAddButton_Click(object sender, EventArgs e)
@@ -61,12 +71,12 @@ namespace subventions
             AddForm form = new AddForm();
             form.Show();
         }
-
+        
         private void ToChangeButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ChangeForm form = new ChangeForm();
-            form.Show();
+            //ChangeForm form = new ChangeForm();
+            //form.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -82,7 +92,7 @@ namespace subventions
             {
                 pageNow -= 1;
 
-                DataTable subventions = new ControllerRegistry().Records(pageNow);
+                DataTable subventions = new ControllerRegistry().Records(pageNow, user);
 
                 DataSet table = new DataSet();
 
@@ -99,7 +109,7 @@ namespace subventions
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DataTable subventions = new ControllerRegistry().Records(pageNow+1);
+            DataTable subventions = new ControllerRegistry().Records(pageNow+1, user);
             
             if (subventions.Rows.Count > 0)
             {
@@ -116,6 +126,42 @@ namespace subventions
             }
             else
                 MessageBox.Show("Листать больше некуда");
+        }
+
+        private void Registry_Load(object sender, EventArgs e)
+        {
+            nameLabel.Text = "Добро пожаловать, " + user.Fullname;
+            if (user.Role != 2)
+            {
+                buttonDelete.Hide();
+            }
+            else
+            {
+                buttonDelete.Show();
+            }
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void МО_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            user = null;
+            this.Hide();
+            Welcome form = new Welcome();
+            form.Show();
         }
     }
 }

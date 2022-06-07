@@ -18,7 +18,7 @@ namespace models.Organization
 
 		public Organisation(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM organisation WHERE org_id={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM \"Organisation\" WHERE org_id={id}");
 
 			Id = (int)DB.data.Rows[0]["org_id"];
 			Distr_id = (int)DB.data.Rows[0]["distr_id"];
@@ -29,7 +29,7 @@ namespace models.Organization
 
 		public List<Organisation> Enumeration(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM organisation WHERE distr_id={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM \"Organisation\" WHERE distr_id={id}");
 			DataTable input = DB.data;
 			List<Organisation> output = new List<Organisation>();
 			DataRow[] rows = input.Select();

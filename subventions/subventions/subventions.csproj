@@ -115,10 +115,11 @@
     <Compile Include="ChangePayment.Designer.cs">
       <DependentUpon>ChangePayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\Auth.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\md5.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Controllers\ControllerRegistry.cs" />
     <Compile Include="Controllers\Delete.cs" />
-    <Compile Include="Controllers\Registration.cs" />
     <Compile Include="DataBase\DataBase.cs" />
     <Compile Include="Controllers\ControllerAddOrEdit.cs" />
     <Compile Include="DataBase\DataBaseRoma.cs" />

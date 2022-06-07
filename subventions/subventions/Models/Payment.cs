@@ -16,7 +16,7 @@ namespace models.Payment
 
 		public Payment(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM payment WHERE pay_id={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM \"Payment\" WHERE pay_id={id}");
 
 			Id = (int)DB.data.Rows[0]["pay_id"];
 			Subvention = (int)DB.data.Rows[0]["subv_id"];
@@ -26,7 +26,7 @@ namespace models.Payment
 
 		public static List<Payment> Enumeration(int id)
 		{
-			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM payment WHERE subv_id={id}");
+			DataBaseRoma DB = new DataBaseRoma(request: $"SELECT * FROM \"Payment\" WHERE subv_id={id}");
 			DataTable input = DB.data;
 			List<Payment> output = new List<Payment>();
 			DataRow[] rows = input.Select();
